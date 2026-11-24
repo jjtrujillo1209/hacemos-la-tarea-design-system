@@ -1,6 +1,6 @@
 # Hacemos la Tarea · Sistema de diseño
 
-Guía de marca de Hacemos la Tarea (movimiento ciudadano de Bogotá, vocero Christiam Torres) para el equipo de diseño y contenido.
+Guía de marca de Hacemos la Tarea (movimiento ciudadano de Bogotá, vocero Cristhiam Torres) para el equipo de diseño y contenido.
 
 ## Cómo usarlo
 
@@ -27,11 +27,11 @@ Guía de marca de Hacemos la Tarea (movimiento ciudadano de Bogotá, vocero Chri
 
 # Reglas de la marca
 
-Hacemos la Tarea es un movimiento ciudadano de Bogotá cuyo vocero es Christiam Torres. Este sistema rige todo lo que se produzca para el movimiento y para Christiam: piezas de redes, videos, documentos, presentaciones y web.
+Hacemos la Tarea es un movimiento ciudadano de Bogotá cuyo vocero es Cristhiam Torres. Este sistema rige todo lo que se produzca para el movimiento y para Cristhiam: piezas de redes, videos, documentos, presentaciones y web.
 
 ## Voz y contenido
 
-- **La marca es el movimiento.** Firma como «Hacemos la Tarea». Christiam Torres aparece como vocero, con nombre y cargo en estilo `nota`, nunca como titular de la pieza.
+- **La marca es el movimiento.** Firma como «Hacemos la Tarea». Cristhiam Torres aparece como vocero, con nombre y cargo en estilo `nota`, nunca como titular de la pieza.
 - **Ciudadano, no político ni institucional.** Habla como un vecino que se informó: frases cortas, verbos de acción, segunda persona («Cuéntanos», «Revisa», «Participa»). Sin jerga de entidad ni promesas.
 - **Dato con fuente.** Toda cifra lleva su fuente visible en estilo `nota`. Sin fuente verificable, no se publica.
 - **Nombra barrios y lugares concretos.** Nunca escribas la palabra «estrato» en una pieza pública.

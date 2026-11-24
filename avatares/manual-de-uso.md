@@ -2,7 +2,7 @@
 
 ## 1. Propósito y alcance
 
-El avatar es un presentador ilustrado de **Hacemos la Tarea** para explicar temas ciudadanos, invitar a participar y acompañar historias en videos de redes. Se inspira de manera general en Christiam Torres sin ser un retrato exacto. El movimiento firma las piezas; Christiam se identifica como vocero cuando corresponda.
+El avatar es un presentador ilustrado de **Hacemos la Tarea** para explicar temas ciudadanos, invitar a participar y acompañar historias en videos de redes. Se inspira de manera general en Cristhiam Torres sin ser un retrato exacto. El movimiento firma las piezas; Cristhiam se identifica como vocero cuando corresponda.
 
 Este manual complementa el [sistema de diseño](../README.md). Si hay diferencias, prevalecen sus reglas de marca, contenido, accesibilidad y formatos.
 
@@ -20,7 +20,7 @@ Conserva sus rasgos comunes: personaje masculino de estilo animado, rostro redon
 
 ## 3. Personalidad y voz
 
-Habla como un vecino informado: cercano, claro y respetuoso. Usa frases cortas, verbos de acción y segunda persona cuando resulte natural. Explica los hechos sin jerga institucional ni promesas; invita a escuchar, verificar y participar. El avatar acompaña el mensaje del movimiento y no se presenta como si fuera Christiam real.
+Habla como un vecino informado: cercano, claro y respetuoso. Usa frases cortas, verbos de acción y segunda persona cuando resulte natural. Explica los hechos sin jerga institucional ni promesas; invita a escuchar, verificar y participar. El avatar acompaña el mensaje del movimiento y no se presenta como si fuera Cristhiam real.
 
 La interpretación debe responder al tema. Usa entusiasmo moderado para convocar, curiosidad para preguntar y una expresión sobria y empática en temas sensibles como víctimas. Evita gestos cómicos, triunfalistas o una sonrisa permanente cuando el contenido pida seriedad.
 

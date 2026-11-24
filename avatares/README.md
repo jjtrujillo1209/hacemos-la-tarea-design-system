@@ -1,6 +1,6 @@
 # Avatar conversacional · Hacemos la Tarea
 
-El personaje es un presentador masculino ilustrado para videos de redes sociales. Su diseño toma inspiración general de Christiam Torres sin reproducirlo exactamente y usa la paleta visual del movimiento.
+El personaje es un presentador masculino ilustrado para videos de redes sociales. Su diseño toma inspiración general de Cristhiam Torres sin reproducirlo exactamente y usa la paleta visual del movimiento.
 
 Consulta el [manual de uso del avatar](manual-de-uso.md) para conocer sus aplicaciones, voz, reglas visuales y preparación para animación.
 
@@ -24,5 +24,5 @@ Estas imágenes son referencias conceptuales planas, no un rig ni archivos prepa
 - [Conceptos iniciales conversacionales](conceptos-avatar-conversacional.png).
 - [Diez variantes conversacionales](10-variantes-avatar-conversacional.png).
 - [Variantes masculinas inspiradas en el isotipo](10-avatares-masculinos-isotipo.png).
-- [Variantes inspiradas en Christiam](10-avatares-inspirados-christiam.png).
+- [Variantes inspiradas en Cristhiam](10-avatares-inspirados-cristhiam.png).
 - [Comparativo inicial de iconos de perfil](comparativo-avatares.svg), con archivos individuales `avatar-01.svg` a `avatar-05.svg`.
