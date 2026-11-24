@@ -1,0 +1,59 @@
+/* Hacemos la Tarea · tokens. Generado desde tokens.json */
+@font-face { font-family: "Montserrat"; src: url("fonts/Montserrat-Variable.ttf") format("truetype"); font-weight: 100 900; font-style: normal; font-display: swap; }
+@font-face { font-family: "Montserrat"; src: url("fonts/Montserrat-Italic-Variable.ttf") format("truetype"); font-weight: 100 900; font-style: italic; font-display: swap; }
+:root, [data-theme="claro"] {
+  --azul-noche: #00002e;
+  --verde-activo: #b4f000;
+  --verde-flecha: #2fe500;
+  --gris: #646464;
+  --blanco: #ffffff;
+  --fondo: var(--blanco);
+  --fondo-alterno: #f1f2f6;
+  --tinta: var(--azul-noche);
+  --tinta-suave: var(--gris);
+  --linea: #d6d8e1;
+  --borde-control: var(--gris);
+  --acento: var(--verde-activo);
+  --sobre-acento: var(--azul-noche);
+  --resalte-texto: var(--azul-noche);
+  --foco: var(--azul-noche);
+}
+[data-theme="noche"] {
+  --azul-noche: #00002e;
+  --verde-activo: #b4f000;
+  --verde-flecha: #2fe500;
+  --gris: #646464;
+  --blanco: #ffffff;
+  --fondo: var(--azul-noche);
+  --fondo-alterno: #0f0f4a;
+  --tinta: var(--blanco);
+  --tinta-suave: #b9bccb;
+  --linea: #2c2c66;
+  --borde-control: #8f92ab;
+  --acento: var(--verde-activo);
+  --sobre-acento: var(--azul-noche);
+  --resalte-texto: var(--verde-activo);
+  --foco: var(--verde-activo);
+}
+:root {
+  --espacio-1: 4px;
+  --espacio-2: 8px;
+  --espacio-3: 16px;
+  --espacio-4: 24px;
+  --espacio-5: 40px;
+  --espacio-6: 64px;
+  --radio-recto: 0;
+  --radio-suave: 4px;
+  --radio-circulo: 50%;
+  --inclinacion: -12deg;
+  --font-sans: Montserrat, Arial, Helvetica, sans-serif;
+}
+.cifra { font-family: var(--font-sans); font-size: 96px; line-height: 0.9; font-weight: 900; font-style: italic; letter-spacing: -0.02em; }
+.titular-xl { font-family: var(--font-sans); font-size: 72px; line-height: 0.95; font-weight: 900; font-style: italic; letter-spacing: -0.01em; }
+.titular-l { font-family: var(--font-sans); font-size: 48px; line-height: 1; font-weight: 800; font-style: italic; }
+.titular-m { font-family: var(--font-sans); font-size: 32px; line-height: 1.1; font-weight: 800; font-style: italic; }
+.titular-s { font-family: var(--font-sans); font-size: 22px; line-height: 1.2; font-weight: 800; }
+.cuerpo-l { font-family: var(--font-sans); font-size: 18px; line-height: 28px; font-weight: 400; }
+.cuerpo { font-family: var(--font-sans); font-size: 16px; line-height: 24px; font-weight: 400; }
+.nota { font-family: var(--font-sans); font-size: 13px; line-height: 18px; font-weight: 500; }
+.etiqueta { font-family: var(--font-sans); font-size: 12px; line-height: 16px; font-weight: 800; letter-spacing: 0.08em; }

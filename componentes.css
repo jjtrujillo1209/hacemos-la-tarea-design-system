@@ -1,0 +1,54 @@
+/* Hacemos la Tarea: estilos de los componentes. Se carga después de tokens.css. */
+.ht-base{margin:0;background:var(--fondo);color:var(--tinta);font-family:var(--font-sans,Montserrat,Arial,Helvetica,sans-serif);-webkit-font-smoothing:antialiased}
+
+/* Flecha: el motivo del isotipo */
+.ht-flecha{display:inline-block;width:.75em;height:1em;background:currentColor;clip-path:polygon(0 0,50% 0,100% 50%,50% 100%,0 100%,50% 50%);flex:none}
+
+/* Botón */
+.ht-boton{display:inline-flex;align-items:center;gap:var(--espacio-2);padding:14px var(--espacio-4);border:2px solid var(--sobre-acento);border-radius:var(--radio-recto);background:var(--acento);color:var(--sobre-acento);font:800 14px/1 var(--font-sans,Montserrat,Arial,sans-serif);letter-spacing:.06em;text-transform:uppercase;text-decoration:none;cursor:pointer}
+.ht-boton .ht-flecha{font-size:12px;transition:transform .15s ease}
+.ht-boton:hover .ht-flecha{transform:translateX(4px)}
+.ht-boton:focus-visible{outline:3px solid var(--foco);outline-offset:3px}
+.ht-boton--secundario{background:transparent;color:var(--tinta);border-color:var(--tinta)}
+.ht-boton[disabled]{background:var(--fondo-alterno);color:var(--tinta-suave);border-color:var(--borde-control);cursor:not-allowed}
+@media (prefers-reduced-motion:reduce){.ht-boton .ht-flecha{transition:none}}
+
+/* Etiqueta de frente */
+.ht-etiqueta{display:inline-block;padding:6px 14px;border:2px solid var(--tinta);border-radius:var(--radio-recto);color:var(--tinta);transform:skewX(var(--inclinacion))}
+.ht-etiqueta>span{display:block;transform:skewX(calc(var(--inclinacion) * -1));font:800 12px/16px var(--font-sans,Montserrat,Arial,sans-serif);letter-spacing:.08em;text-transform:uppercase;white-space:nowrap}
+.ht-etiqueta--activa{background:var(--acento);border-color:var(--acento);color:var(--sobre-acento)}
+
+/* Titular con resalte */
+.ht-titular{margin:0;font:italic 900 48px/1.02 var(--font-sans,Montserrat,Arial,sans-serif);letter-spacing:-.01em;text-transform:uppercase;text-wrap:balance;color:var(--tinta)}
+.ht-titular--m{font-size:32px;font-weight:800;text-transform:none;line-height:1.1}
+.ht-resalte{background:var(--acento);color:var(--sobre-acento);padding:0 .14em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+
+/* Dato */
+.ht-dato{display:grid;gap:var(--espacio-3);max-width:420px;padding:var(--espacio-4);background:var(--fondo-alterno);border-radius:var(--radio-recto)}
+.ht-dato__cifra{margin:0;font:italic 900 96px/.9 var(--font-sans,Montserrat,Arial,sans-serif);letter-spacing:-.02em;color:var(--tinta)}
+.ht-dato__cifra small{font-size:.34em;letter-spacing:0;text-transform:uppercase}
+.ht-dato__barra{width:var(--espacio-6);height:var(--espacio-2);background:var(--acento);transform:skewX(var(--inclinacion))}
+.ht-dato__texto{margin:0;font:400 18px/28px var(--font-sans,Montserrat,Arial,sans-serif);color:var(--tinta)}
+.ht-dato__fuente{margin:0;font:500 13px/18px var(--font-sans,Montserrat,Arial,sans-serif);color:var(--tinta-suave)}
+
+/* Pieza de redes 4:5. Cada variante fija su propio fondo, no sigue el tema. */
+.ht-pieza{position:relative;display:flex;flex-direction:column;justify-content:space-between;box-sizing:border-box;width:270px;max-width:100%;aspect-ratio:4/5;padding:var(--espacio-4);overflow:hidden;border-radius:var(--radio-recto);font-family:var(--font-sans,Montserrat,Arial,sans-serif)}
+.ht-pieza--noche{background:var(--azul-noche);color:var(--blanco)}
+.ht-pieza--blanco{background:var(--blanco);color:var(--azul-noche);box-shadow:inset 0 0 0 1px var(--linea)}
+.ht-pieza__logo{width:64px;height:auto;display:block}
+.ht-pieza__banda{position:absolute;right:-24px;bottom:44px;width:120px;height:48px;background:var(--verde-activo);transform:skewX(var(--inclinacion))}
+.ht-pieza__titular{position:relative;margin:0;font:italic 900 27px/1 var(--font-sans,Montserrat,Arial,sans-serif);letter-spacing:-.01em;text-transform:uppercase}
+.ht-pieza__titular .ht-resalte{background:var(--verde-activo);color:var(--azul-noche)}
+.ht-pieza__pie{position:relative;display:flex;align-items:center;justify-content:space-between;gap:var(--espacio-2);font:800 9px/1.2 var(--font-sans,Montserrat,Arial,sans-serif);letter-spacing:.08em;text-transform:uppercase}
+.ht-pieza--noche .ht-pieza__pie .ht-flecha{color:var(--verde-activo)}
+
+/* Firma */
+.ht-firma{display:inline-flex;align-items:center;gap:var(--espacio-3);color:var(--tinta);font-family:var(--font-sans,Montserrat,Arial,sans-serif)}
+.ht-firma__logo{width:96px;height:auto;display:block;flex:none}
+.ht-firma__nombre{margin:0;font:italic 900 22px/1 var(--font-sans,Montserrat,Arial,sans-serif);text-transform:uppercase;letter-spacing:-.005em}
+.ht-firma__lema{margin:6px 0 0;font:500 13px/18px var(--font-sans,Montserrat,Arial,sans-serif);color:var(--tinta-suave)}
+
+/* El isotipo cambia de versión con el fondo */
+.ht-logo--oscuro{display:none}
+[data-theme="noche"] .ht-logo--claro{display:none}
+[data-theme="noche"] .ht-logo--oscuro{display:block}
