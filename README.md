@@ -16,6 +16,7 @@ Guía de marca de Hacemos la Tarea (movimiento ciudadano de Bogotá, vocero Chri
 | `fonts/` | Montserrat recta y cursiva, todos los pesos |
 | `tokens.css` · `tokens.json` | Colores, espacios, radios y estilos de texto |
 | `componentes.css` | Clases de los seis componentes |
+| `avatares/` | Avatar conversacional: dirección seleccionada, exploraciones, referencias de animación y manual de uso |
 | `referencia/` | Hoja de color original |
 
 ## Pendiente
@@ -109,6 +110,10 @@ Usa la escala `espacio-1` a `espacio-6` (4, 8, 16, 24, 40, 64 px). El módulo de
 ## Componentes
 
 `Boton`, `Etiqueta`, `Titular`, `Dato`, `PiezaSocial` y `Firma` son HTML con las clases de `componentes.css`. No hay JavaScript. Su HTML de ejemplo y sus reglas están en `index.html`, sección Componentes.
+
+## Avatar conversacional
+
+La dirección seleccionada, las exploraciones y las referencias para animación están documentadas en [avatares/README.md](avatares/README.md). Consulta también el [manual de uso del avatar](avatares/manual-de-uso.md).
 
 ## Accesibilidad
 
